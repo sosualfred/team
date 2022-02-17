@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:team/screens/about_screen.dart';
 import 'package:team/screens/home_screen.dart';
+import 'package:team/screens/services_screen.dart';
 
 void main() {
   runApp(StartingPointWidget());
@@ -12,7 +13,8 @@ class StartingPointWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: HomeScreen(),
+      debugShowCheckedModeBanner: false,
+      home: ServicesScreen(),
     );
   }
 }
